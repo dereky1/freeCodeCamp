@@ -1,0 +1,108 @@
+body {
+  background-image: url("ocean.jpg");
+  width: 100%;
+  margin: 0;
+}
+
+#body {
+  width: 50%;
+  margin: auto;
+  color:hsl(220,100%,80%);
+  font-family:fantasy;
+}
+
+form {
+  border: 2px solid hsl(220,100%,60%);
+  border-radius: 25px;
+  background-color:hsl(220,100%,80%);
+  padding-top:20px;
+  color:hsl(220,100%,60%)
+}
+
+h1, p {
+  text-align:center;
+  color:hsl(0, 2%, 90%);
+}
+
+h1 {
+  padding-top:2rem;
+  font-size: 45px;
+}
+
+p {
+  margin-top: -1rem;
+}
+
+fieldset{
+  width: 90%;
+  margin: auto;
+  border:none;
+  border-bottom: 1px solid hsl(0, 2%, 90%);
+  border-bottom-width: 75%;
+}
+
+fieldset:last-of-type{
+  border:none;
+}
+
+label{
+  height:20px;
+  padding-bottom:40px;
+  width:100%;
+}
+
+input, select, textarea {
+  width:100%;
+  background-color: hsl(220,100%,60%);
+  color:hsl(0, 2%, 90%);
+  border: 1px solid hsl(0, 2%, 90%);
+  border-radius: 10px;
+  padding: 2px;
+}
+
+.radcheck{
+  display:block;
+}
+
+.radcheck label{
+  float:left;
+  height:1px;
+  padding-top:10px;
+  margin-bottom:-20px;
+}
+
+.radcheck input{
+  width:5%;
+}
+
+
+.top input{
+  height:30px;
+}
+
+input::placeholder, textarea::placeholder, option {
+  color:hsl(0, 2%, 70%);
+}
+
+
+input[type="submit"]{
+  height: 30px;
+  width: 100%;
+  margin: auto;
+}
+
+#feedback-label{
+  padding-bottom: 50px;
+}
+
+textarea{
+  height:50px;
+  overflow:hidden;
+}
+
+footer{
+  position:fixed;
+  width: 100%;
+  bottom:0px;
+  border:3px solid hsl(220,100%,80%);
+}

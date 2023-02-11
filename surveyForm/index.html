@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="body">
+    <h1 id="title">Oceanside Feedback</h1>
+    <p id="description">The marine animals thank you for your support and feedback!!!</p>
+    <form id="survey-form" method="post">
+      <fieldset class="top">
+        <label id="name-label" for="name">Name: <input id="name" name="name" type="text" placeholder="Enter your name" required></label>
+        <label id="email-label" for="email">Email: <input id="email" name="email" type="email" placeholder="Enter your email" required></label>
+        <label id="job-label" for="job">Occupation: <input id="job" name="job" type="text" placeholder="Optional"></label>
+        <label id="number-label" for="number">Age: <input id="number" name="number" type="number" placeholder="Optional" min="13" max="120"></label>
+      </fieldset>
+      <fieldset>
+        <label id="dropdown-label" for="dropdown">How would you rate your experience here?
+          <select id="dropdown">
+            <option value="0">How'd You feel here?</option>
+            <option value="1">0 - Horrible!</option>
+            <option value="2">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 - Ehh, it was alright</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10 - I don't want to leave!</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset class="radcheck">What method of transportation do you prefer?
+        <label>Land<input type="radio" name="type" id="land" value="1"></label>
+        <label>Sea<input type="radio" name="type" id="sea" value="2"></label>
+        <label>Air<input type="radio" name="type" id="air" value="3"></label>
+      </fieldset>
+      <fieldset class="radcheck">Please select a food item(s) that you would like see on the menu:
+        <label>Sushi Set<input type="checkbox" value="1"></label>
+        <label>Sashimi Set<input type="checkbox" value="2"></label>
+        <label>Nigiri Set<input type="checkbox" value="3"></label>
+        <label>Kaisendon Set<input type="checkbox" value="4"></label>
+        <label>Tempura Set<input type="checkbox" value="5"></label>
+        <label>Takoyaki Set<input type="checkbox" value="6"></label>
+      </fieldset>
+      <fieldset>
+        <label id="feedback-label" for="feedback">Please let us know how we can make your next visit even more magical: <textarea id="feedback" name="feedback" placeholder="What can we do better next time?"></textarea></label>
+      </fieldset>
+      <fieldset>
+        <label id="submit-label" for="submit">
+          <input name="submit" id="submit" type="submit">
+        </label>
+      </fieldset>
+    </form>
+  </div>
+  <footer>
+  </footer>
+</body>
+</html>
