@@ -1,0 +1,53 @@
+body {
+  background-color:white;
+  font-family: monospace;
+}
+
+#title{
+  font-size: 50px;
+}
+
+figure{
+  margin:0 2%;
+  padding: 10px 0;
+    background-color:white;
+  border-radius:15px;
+}
+
+#image {
+  display:block;
+  max-width:100%;
+  height:auto;
+  margin:0 auto;
+  border-radius:15px;
+  border:2px solid rgb(177, 242, 194);
+}
+
+#main{
+  background-color:rgb(177, 242, 194);
+  width:100%;
+  min-height:100%;
+  text-align:center;
+  border-radius:15px;
+}
+
+main p, li {
+  margin: 10px;
+  padding: 10px;
+}
+
+#tribute-info{
+  width:50%;
+  margin:auto;
+  text-align:left;
+}
+
+#tribute-info > h3{
+  text-align: center;
+  padding:20px;
+}
+
+#title{
+  margin-top:20px;
+  padding-top:20px;
+}
